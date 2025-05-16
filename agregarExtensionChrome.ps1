@@ -1,6 +1,6 @@
 ﻿# Variables
 $chromePath = "C:\Program Files\Google\Chrome\Application\chrome.exe"
-$extensionPath = "C:\Users\<Usuario>\Desktop\PoCCookie-bite"
+$extensionPath = "C:\Users\<USER>\Desktop\PoCCookie-bite"
 
 # verificar que existe la extensión
 
