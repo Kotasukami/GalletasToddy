@@ -1,5 +1,5 @@
 ﻿# Variables
-$chromePath = "C:\Program Files\Google\Chrome\Application\chrome.exe"
+$chromePath = "C:\Program Files\Google\Chrome\Application\chrome.exe" #Path chrome.exe
 $extensionPath = "C:\Users\<USER>\Desktop\PoCCookie-bite"
 
 # verificar que existe la extensión
@@ -16,4 +16,4 @@ Get-Process -Name Chrome -ErrorAction SilentlyContinue | Stop-Process -Force
 # Iniciar Chrome con las extensiones temporalmente cargadas
 Start-Process -FilePath $chromePath -ArgumentList "--load-extension=`"$extensionPath`" --disable-popup-blocking"
 
-Write-Host "[+] Chrome a iniciado exitosamente con la extensión cargada temporalmente, abriendo navegador..."
+Write-Host "[+] Extensión cargada exitosamente, abriendo navegador..."
