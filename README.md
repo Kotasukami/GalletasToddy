@@ -8,8 +8,12 @@ Por el momento solo he realizado pruebas en navegador Chrome, pero no descarto o
 ## Instrucciones
 1. Ejecutar script de powershell
    ```
-   PS C:\> agregarExtensionChrome.ps1
+   agregarExtensionChrome.ps1
    ```
+
+2. Configurar navegador en modo desarrollador
+3. Añadir extensión "Cookie editor"
+
 
 ### Notas adicionales
 
