@@ -11,7 +11,7 @@ if (!(Test-Path -Path $extensionPath))
 }
 
 # Cerrar todas las instancias de Chrome
-Get-Process -Name edge -ErrorAction SilentlyContinue | Stop-Process -Force
+Get-Process -Name Chrome -ErrorAction SilentlyContinue | Stop-Process -Force
 
 # Iniciar Chrome con las extensiones temporalmente cargadas
 Start-Process -FilePath $chromePath -ArgumentList "--load-extension=`"$extensionPath`" --disable-popup-blocking"
