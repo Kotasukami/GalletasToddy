@@ -9,9 +9,9 @@ Por el momento solo he realizado pruebas en navegador Chrome, pero no descarto o
 1. Añadir extensión "Cookie editor" al navegador.
 2. Editar el archivo "Toddy.js" con los ID del Google Forms correspondiente a su formulario.
 3. Ejecutar script de powershell
-```
-agregarExtensionChrome.ps1
-```
+ ```
+ agregarExtensionChrome.ps1
+ ```
 
 ### Notas adicionales
 Esta herramienta fue diseñada para fines de pentesting, por lo que el mal uso de este no está bajo mi responsbilidad.
