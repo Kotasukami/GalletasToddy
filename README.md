@@ -10,7 +10,7 @@ Por el momento solo he realizado pruebas en navegador Chrome, pero no descarto o
 2. Editar el archivo "Toddy.js" con los ID del Google Forms correspondiente a su formulario.
 3. Ejecutar script de powershell
  ```
-    agregarExtensionChrome.ps1
+ PS C:\> .\agregarExtensionChrome.ps1
  ```
 
 ### Notas adicionales
