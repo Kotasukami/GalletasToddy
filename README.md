@@ -1,4 +1,4 @@
-                
+                 
 # :cookie: Galletas Toddy (PtC)
 
 PoC desarrollada en base a investigación de [Varonis](https://www.varonis.com/blog/cookie-bite) sobre Cookie-Bite (Pass-the-Cookie), que roba las cookies/tokens de una sesión activa de cuentas Microsoft a través de extensiones, para bypassear la autenticación MFA.
@@ -10,7 +10,7 @@ Por el momento solo he realizado pruebas en navegador Chrome, pero no descarto o
 2. Editar el archivo "Toddy.js" con los ID del Google Forms correspondiente a su formulario.
 3. Ejecutar script de powershell
  ```
- agregarExtensionChrome.ps1
+    agregarExtensionChrome.ps1
  ```
 
 ### Notas adicionales
