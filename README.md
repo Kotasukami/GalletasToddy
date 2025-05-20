@@ -6,17 +6,14 @@ PoC desarrollada en base a investigación de [Varonis](https://www.varonis.com/b
 Por el momento solo he realizado pruebas en navegador Chrome, pero no descarto otras alternativas como Edge, Firefox, etc.
 
 ## Instrucciones
-1. Ejecutar script de powershell
+1. Añadir extensión "Cookie editor" al navegador.
+2. Editar el archivo "Toddy.js" con los ID del Google Forms correspondiente a su formulario.
+3. Ejecutar script de powershell
 ```
 agregarExtensionChrome.ps1
 ```
 
-2. Configurar navegador en modo desarrollador
-3. Añadir extensión "Cookie editor"
-
-
 ### Notas adicionales
-
 Esta herramienta fue diseñada para fines de pentesting, por lo que el mal uso de este no está bajo mi responsbilidad.
 
 
