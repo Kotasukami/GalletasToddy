@@ -7,8 +7,8 @@ Por el momento, solo he realizado pruebas en navegador Chrome, pero no descarto 
 
 ## Instrucciones
 1. Añadir extensión "Cookie editor" al navegador.
-2. Editar el archivo "Toddy.js" con los ID del Google Forms correspondiente a su formulario.
-3. Ejecutar script de powershell
+2. Editar el archivo "Toddy.js" con los ID's correspondiente a su formulario (Google Forms).
+3. Ejecutar script de powershell.
  ```
  PS C:\> .\agregarExtensionChrome.ps1
  ```
