@@ -1,7 +1,7 @@
                  
 # :cookie: Galletas Toddy (PtC)
 
-PoC desarrollada en base a investigación de [Varonis](https://www.varonis.com/blog/cookie-bite) sobre Cookie-Bite (Pass-the-Cookie), que roba las cookies/tokens de una sesión activa de cuentas Microsoft a través de extensiones, para bypassear la autenticación MFA.
+PoC desarrollada en base a investigación de [Varonis](https://www.varonis.com/blog/cookie-bite) sobre Cookie-Bite (Pass-the-Cookie), que roba las cookies/tokens de una sesión activa de cuentas Microsoft a través una extensión maliciosa, con el objetivo de bypassear la autenticación MFA.
 
 Por el momento, solo he realizado pruebas en navegador Chrome, pero no descarto otras alternativas como Edge, Firefox, etc.
 
