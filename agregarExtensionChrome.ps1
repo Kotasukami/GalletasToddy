@@ -1,6 +1,6 @@
 ﻿# Variables
 $chromePath = "C:\Program Files\Google\Chrome\Application\chrome.exe" #Path chrome.exe
-$extensionPath = "Path\Folder" #Ex: C:\Folder\PoCPtC
+$extensionPath = "Path\Folder" #path PoC
 
 # verificar que existe la extensión
 
