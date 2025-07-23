@@ -13,8 +13,8 @@ Por el momento, solo he realizado pruebas en navegador Chrome, pero no descarto 
  PS C:\> .\agregarExtensionChrome.ps1
  ```
 
-### Notas adicionales
-Esta herramienta fue diseñada para fines de pentesting, por lo que el mal uso de este no está bajo mi responsbilidad.
+> [!CAUTION]
+Esta herramienta fue diseñada para fines de pentesting, por lo que el mal uso de este no está bajo mi responsabilidad.
 
 
 
